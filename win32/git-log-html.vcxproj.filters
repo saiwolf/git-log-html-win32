@@ -22,4 +22,11 @@
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="LICENSE" />
+    <None Include="..\unix\default.css" />
+    <None Include="..\unix\test.footer.html" />
+    <None Include="..\unix\test.header.html" />
+    <None Include="..\unix\test-input" />
+  </ItemGroup>
 </Project>
