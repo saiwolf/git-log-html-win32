@@ -34,8 +34,7 @@ definitions of the most common classes.
     git-log-html FILE
     # colourizes the contents of FILE
 
-## Installation
-
+## Installation for Unix/CYGWIN/MINGW
     make
     sudo cp git-log-html /usr/local/bin/git-log-html
 ## Installation for Windows (Added by Robert Cato)
@@ -47,9 +46,10 @@ Help is always wanted!
 * Look in the Debug/ or Release/ folders for the .exe
 ### MS Build Tools
 * Open the MS Build Tools Command Prompt
-* Change to the root directory of this repository
-* Execute `devenv git-log-html.sln`
-* Look in the Debug/ or Release/ folders for the .exe
+* Change to the win32 directory
+* Execute `MSBuild git-log-html.vcxproj /property:Configuration=Debug` for Debug builds
+* Execute `MSBuild git-log-html.vcxproj /property:Configuration=Release` for Release builds
+* Look in the Debug/ or Release/ folders under the win32 directory for the .exe
 
 ## Example for Unix
 
