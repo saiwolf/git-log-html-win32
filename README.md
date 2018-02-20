@@ -39,6 +39,8 @@ definitions of the most common classes.
     make
     sudo cp git-log-html /usr/local/bin/git-log-html
 ## Installation for Windows (Added by Robert Cato)
+Note: You can safely ignore the warnings. Or make a pull request if you feel like fixing them!
+Help is always wanted!
 ### Visual Studio
 * Open `git-log-html.sln` in Visual Studio
 * Build -> Build Solution/Build Project
