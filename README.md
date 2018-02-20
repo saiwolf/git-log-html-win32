@@ -25,7 +25,7 @@ definitions of the most common classes.
     # --format=format:'%C(bold blue)%h%C(reset) \
     # - %C(bold green)(%ad)%C(reset) \
     # %C(white)%s%C(reset) \
-    # %C(dim white)- %an%C(reset) \
+    # %C(dim white)- %an <%ae>%C(reset) \
     # %C(bold yellow)%d%C(reset)' --all
 
     git-log-html -
