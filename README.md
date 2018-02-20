@@ -56,6 +56,10 @@ Help is always wanted!
 In order to get an impression of how the output looks, run `make test`
 and then open `test.html` in a browser.
 
+## Example for Windows
+
+Open up `test.html` in the win32 directory for a static view of what the output of this tool produces.
+
 ## Authors
 
 Dario Hamidi `<dario.hamidi@gmail.com>`
