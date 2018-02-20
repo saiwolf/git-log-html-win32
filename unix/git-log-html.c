@@ -101,7 +101,7 @@ static const char* html_entities[256] = {
 
 static const int css_class_count = sizeof(css_classes) / sizeof(char*);
 
-static const char* git_log_command = "git log -n 10 --graph --color=always --abbrev-commit --decorate --date=relative --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)' --all";
+static const char* git_log_command = "git log -n 10 --graph --color=always --abbrev-commit --decorate --date=format:%c --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ad)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)' --all";
 
 int main(int argc, char** argv) {
    FILE* input   = NULL;
