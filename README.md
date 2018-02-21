@@ -34,9 +34,6 @@ definitions of the most common classes.
     git-log-html FILE
     # colourizes the contents of FILE
 
-## Installation for Unix/CYGWIN/MINGW
-    make
-    sudo cp git-log-html /usr/local/bin/git-log-html
 ## Installation for Windows (Added by Robert Cato)
 Note: You can safely ignore the warnings. Or make a pull request if you feel like fixing them!
 Help is always wanted!
@@ -51,19 +48,16 @@ Help is always wanted!
 * Execute `MSBuild git-log-html.vcxproj /property:Configuration=Release` for Release builds
 * Look in the Debug/ or Release/ folders under the win32 directory for the .exe
 
-## Example for Unix
-
-In order to get an impression of how the output looks, run `make test`
-and then open `test.html` in a browser.
-
 ## Example for Windows
 
 Open up `test.html` in the win32 directory for a static view of what the output of this tool produces.
 
 ## Authors
 
+### Original Code Authors
 Dario Hamidi `<dario.hamidi@gmail.com>`
 
 Selvam, Vignesh <vignesh.selvam@one.verizon.com>
 
+### Win32 Port written by
 Win32 Port and this fork's owner: Robert Cato <saiwolf@swmnu.net>
